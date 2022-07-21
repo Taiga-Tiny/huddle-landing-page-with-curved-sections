@@ -148,7 +148,7 @@ main {
   }
 
   .section-2 {
-    background-image: url("/images/bg-section-top-mobile-1.svg");
+    background-image: url("../images/bg-section-top-mobile-1.svg");
     background-position: bottom center;
     padding: 24px 94px;
     display: flex;
@@ -157,7 +157,7 @@ main {
     align-items: center;
 
     @include largeScreen() {
-      background-image: url("/images/bg-section-top-desktop-1.svg");
+      background-image: url("../images/bg-section-top-desktop-1.svg");
       padding: 0 203px;
       flex-direction: row;
       justify-content: space-around;
