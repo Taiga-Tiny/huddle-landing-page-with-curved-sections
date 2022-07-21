@@ -198,7 +198,7 @@ main .section-conversation .contents {
 @media (min-width: 1069px) {
   main .section-conversation .contents {
     flex-direction: row-reverse;
-    padding: 66px 95px;
+    padding: 51px 95px;
   }
 }
 main .section-conversation .contents .img-content {
@@ -250,12 +250,12 @@ main .section-conversation .contents .text-content p {
   }
 }
 main .section-flow {
-  background-image: url("/images/bg-section-bottom-mobile-1.svg"), url("/images/bg-section-top-mobile-2.svg");
+  background-image: url("../images/bg-section-bottom-mobile-1.svg"), url("../images/bg-section-top-mobile-2.svg");
   background-position: top center, bottom center;
 }
 @media (min-width: 1069px) {
   main .section-flow {
-    background-image: url("/images/bg-section-bottom-desktop-1.svg"), url("/images/bg-section-top-desktop-2.svg");
+    background-image: url("../images/bg-section-bottom-desktop-1.svg"), url("../images/bg-section-top-desktop-2.svg");
   }
 }
 main .section-flow .contents {
@@ -375,12 +375,12 @@ main .section-user .contents .text-content p {
   font-size: 14px;
 }
 main .section-footer {
-  background-image: url("/images/bg-section-bottom-mobile-2.svg"), url("/images/bg-footer-top-mobile.svg");
+  background-image: url("../images/bg-section-bottom-mobile-2.svg"), url("../images/bg-footer-top-mobile.svg");
   background-position: top center, bottom center;
 }
 @media (min-width: 1069px) {
   main .section-footer {
-    background-image: url("/images/bg-section-bottom-desktop-2.svg"), url("/images/bg-footer-top-desktop.svg");
+    background-image: url("../images/bg-section-bottom-desktop-2.svg"), url("../images/bg-footer-top-desktop.svg");
     background-position: top center, bottom center;
   }
 }
